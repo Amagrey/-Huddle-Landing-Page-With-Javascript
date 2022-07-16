@@ -239,7 +239,7 @@ a, .wrap{
       padding: 10px;
     }
     main > * {
-      width: 100%;
+      width: 50%;
     }
     h1 {
       font-size: 1.6rem;
@@ -257,3 +257,233 @@ a, .wrap{
   header{
     font-size: 29px;
   }
+  .Huddle-logo{
+    width: 270px;
+}
+nav{
+    background: hsl(193, 100%, 96%);  
+    margin-left: 1px;
+    display: flex;
+}
+ul{
+    margin-top: 15px;
+}
+.main-section{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+header{
+    background: hsl(193, 100%, 96%);
+    width: 1450px;
+    height: 750px;
+    background-image: url(./huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg); 
+}
+.btn1{
+    width: 250px;
+    height: 50px;
+    background: #fff;
+    border: 2px solid #fff;
+    box-shadow: 4px 4px 4px  rgba(0, 0, 0, 0.1);
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-radius: 30px; 
+    margin-left: 800px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    padding: 10px;
+}
+h1{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 37px;
+    
+}
+.fl, .fp{
+    margin-left: 10px;
+    margin-top: 30px;
+    line-break: auto;
+}
+.GT, .par{
+    margin-left: 40px;
+    margin-top: 80px;
+    line-break: auto;
+    text-align: left;
+}
+
+.div2{
+    text-align: right;
+    margin-right: 100px;
+}
+.fc{
+    margin-left: 600px;
+   margin-top: -300px;
+   text-align: left;
+}
+.div3{
+    text-align: left;
+    margin-left: 100px;   
+    justify-content: center;
+    
+}
+.Yu{
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: left;  
+    align-self: center;
+    
+}
+.par2{
+   margin-top: 40px;
+    text-align: left; 
+}
+
+.par1{
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 600px;
+}
+p, a{
+    font-family: poppins;
+    color:  hsl(208, 11%, 55%);
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 250px;
+    margin-right: 5px;
+}
+.btn2{
+    width: 300px;
+    height: 55px;
+    background: hsl(322, 100%, 66%);
+    border: 2px solid rgba(252, 17, 252, 252);
+    margin-top: 13px;
+    color: #fff;
+    border-radius: 25px;   
+    padding: 10px; 
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 18px;
+}
+.sec1, .sec2, .sec3{
+    width: 1350px;
+    height: 400px;
+    box-shadow: 0px 0px 6px hsl(208, 11%, 55%);
+    margin-left: 40px;
+    border-radius: 15px;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.div1{
+    margin-top: 20px;
+    text-align: left;
+    border-top: 20px;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.img2 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: -90px;
+}
+.img3{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    height: 200px;
+}
+.img4{
+    display: flex;
+    flex-direction: column;
+    width: 172px;
+    height: 250px;
+    margin-left: 400px;
+    margin-top: -80px;
+}
+.sec4{
+    width: 250px;
+    height: 90px;
+    box-shadow: 0px 0px 6px hsl(208, 11%, 55%);
+    margin-left: 235px;
+    border-radius: 15px;
+    justify-items: center;
+    margin-top: 90px; 
+    text-align: center;
+    margin-bottom: -px;
+}
+.h2{
+    margin-top: 100px;
+}
+.btn{
+    width: 300px;
+    height: 55px;
+    background: hsl(322, 100%, 66%);
+    border: 2px solid rgba(252, 17, 252, 252);
+    margin-top: 13px;
+    color: #fff;
+    border-radius: 25px;   
+    padding: 10px; 
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 18px;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    display: flex;
+    height: 550px;
+    width: 1450px;
+}
+ .hud2{
+    width: 200px;
+    filter: brightness(0) invert(1);
+
+}
+span, .email, .call, .location, a{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 3px;
+}
+.email, .call, .location{
+    margin-top: 23px;
+}
+
+a, .wrap{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+.Au, .Car{
+    margin-top: 100px;
+}
+.wrap{
+    flex-direction: column;
+    margin-top: 90px;
+}
+.copyright{
+    margin-top: 500px;
+    text-align: right;
+    justify-content: right;
+    margin-left: 10px;
+}
