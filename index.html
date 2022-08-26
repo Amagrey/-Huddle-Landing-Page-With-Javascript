@@ -29,8 +29,9 @@
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
             rel="stylesheet"
         />
-        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-        <link rel="stylesheet" href="huddle-landing-page-with-alternating-feature-blocks-master">
+        <!-- <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> -->
+        <link rel="stylesheet" href="huddle-landing-page-with-alternating-feature-blocks-master"/>
+        <link rel="stylesheet" href="https://ionic.io/ionicons"/>
 
         <title>Huddle task</title>
     </head>
@@ -41,7 +42,7 @@
                 <!--  Element img not allowed as child of element ul in this context. Basically,you can not put an image in the ul tag ....removed the ul-->
 
                 <img
-                    src="huddle-landing-page-with-alternating-feature-blocks-master/images/logo.svg"
+                    src="./images/logo.svg"
                     alt="Huddle-logo"
                     class="Huddle-logo"
                 />
@@ -70,13 +71,10 @@
                     > -->
                 </div>
                 <!--                 i am going the give all img tag a common class,incase i plan to give a style to all images
-    NOTE: A TAG CAN HAVE MORE THAN ONE CLASS-WATCH HOW I DO IT....I CAN EXPLAIN WHY LATER INCASE YOU DON'T UNDERSTAND
  -->
                 <div class="img1">
-                    <!-- you have wrapped this image in a div,so selecting it, you do not select the div only, also select the image ..... .img1 img or give the img tag a class and select the class -->
-
                     <img
-                        src="huddle-landing-page-with-alternating-feature-blocks-master/images/illustration-mockups.svg"
+                        src="./images/illustration-mockups.svg"
                         alt="mockup"
                         class="img mockup"
                     />
@@ -84,7 +82,7 @@
             </section>
         </header>
         <main>
-            <section class="sec1">
+            <section class="section reveal" id="section-1">
                 <div class="div1">
                     <h1 class="GT header">Grow together</h1>
                     <p class="par p">
@@ -95,22 +93,22 @@
                 </div>
                 <div class="img2">
                     <img
-                        src="huddle-landing-page-with-alternating-feature-blocks-master/images/illustration-grow-together.svg"
+                        src="./images/illustration-grow-together.svg"
                         alt=""
                         class="img grow"
                     />
                 </div>
             </section>
 
-            <section class="sec2">
+            <section class="section reveal" id="section-2">
                 <div class="img3">
                     <img
-                        src="huddle-landing-page-with-alternating-feature-blocks-master/images/illustration-flowing-conversation.svg"
+                        src="./images/illustration-flowing-conversation.svg"
                         alt=""
                         class="img flow"
                     />
                 </div>
-                <div class="div2">
+                <div class="div2" id="section-2">
                     <h1 class="fc header">Flowing Conversations</h1>
                     <p class="par1 p">
                         You wouldn't paginate a conversation in real life,
@@ -122,7 +120,7 @@
                 </div>
             </section>
 
-            <section class="sec3">
+            <section class="section reveal" id="section-2">
                 <div class="div3">
                     <h1 class="Yu header">Your Users</h1>
                     <p class="par2 p">
@@ -134,7 +132,7 @@
                 </div>
                 <div class="img4">
                     <img
-                        src="huddle-landing-page-with-alternating-feature-blocks-master/images/illustration-your-users.svg"
+                        src="./images/illustration-your-users.svg"
                         alt=""
                         class="img users"
                     />
@@ -142,7 +140,7 @@
             </section>
         </main>
 
-        <section class="section" id="section-4">
+        <section class="section reveal" id="section-4">
             <div class="trial">
                 <p class="trial__p">Ready To Build Your Community?</p>
                 <button class="btn trial__btn">Get Started For Free</button>
@@ -154,14 +152,14 @@
                 <section>
                     <div class="foot">
                         <img
-                            src="huddle-landing-page-with-alternating-feature-blocks-master/images/logo.svg"
+                            src="./images/logo.svg"
                             alt="Huddle logo"
                             class="nav__logo--btm"
                             id="logo"
                         />
                         <p class="btm__p">
                             <img
-                                src="huddle-landing-page-with-alternating-feature-blocks-master/images/icon-location.svg"
+                                src="./images/icon-location.svg"
                                 class="location"
                             />
 
@@ -173,11 +171,11 @@
                         </p>
 
                         <p class="btm__p">
-                            <img src="huddle-landing-page-with-alternating-feature-blocks-master/images/icon-phone.svg" class="location" />
+                            <img src="./images/icon-phone.svg" class="location" />
                             <span>+1-543-123-4567</span>
                         </p>
                         <p class="btm__p">
-                            <img src="huddle-landing-page-with-alternating-feature-blocks-master/images/icon-email.svg" class="location" />
+                            <img src="./images/icon-email.svg" class="location" />
                             <span>example@huddle.com</span>
                         </p>
                     </div>
@@ -208,27 +206,20 @@
                         <!--                         REPLACE THESE -->
                         <ul class="ul__row ul__btm">
                             <li>
-                                <a href="facebook.com"
-                                    ><img
-                                        src="images/icons8-facebook-circled.svg"
-                                /></a>
-                            </li>
+                                <a class="social-icon" href="">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                                </Li>
+                                <li>
+                                <a class="social-icon" href="">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </Li>
                             <li>
-                                <a
-                                    href="https://twitter.com/the_altekid"
-                                    target="_blank"
-                                    ><img
-                                        src="images/icons8-twitter-circled.svg"
-                                /></a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://instagram.com/ghostgirl_szn"
-                                    target="_blank"
-                                    ><img
-                                        src="images/icons8-instagram-circle.svg"
-                                /></a>
-                            </li>
+                                <a class="social-icon" href="">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </Li>
                         </ul>
                     </div>
                 </section>
@@ -240,5 +231,8 @@
                 </div>
             </section>
         </footer>
+        <script src="script.js"></script>
      </body>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>
