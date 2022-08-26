@@ -420,7 +420,8 @@ footer{
         padding: 0.4rem 1rem;
         text-align: center;
         align-items: center;
-        margin-left: 12%;
+        margin-left: 30%;
+        font-size: 8px;
     }
     nav{
         width: 100%;
@@ -474,9 +475,10 @@ footer{
 
 }
 h1 {
+    text-align: center;
     font-family: poppins;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1em;
     color: var(--very-dark-cyan);
 }
@@ -484,7 +486,7 @@ h1 {
     color: var(--grayish-blue);
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 1.2em;
     margin-top: 1.5rem;
     width: 100%;
