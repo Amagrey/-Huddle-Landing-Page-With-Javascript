@@ -348,7 +348,7 @@ span {
     grid-template-columns: 1fr;
     gap: 4rem;
     margin: 2rem auto;
-    margin-left: 4rem;
+    margin-left: 8rem;
     padding: 4rem;
     width: 70%;
 }
@@ -467,7 +467,7 @@ footer{
     margin: 2rem 3rem;
     padding: 4rem 2rem 2rem 2rem;
     width: 18rem;
-    margin-right: rem;
+    margin-left: 4.5rem;
     align-items: center;
     justify-content: center;
 
